@@ -1,6 +1,7 @@
 import React from 'react'
 import './projects.css'
 import lms from '../../assets/lms.jfif'
+import recipe from '../../assets/recipe.png'
 
 function Projects() {
   return (
@@ -24,7 +25,7 @@ function Projects() {
                 <article>
                     <figure>
                         <div>
-                            <a href="https://leafy-tapioca-ff9411.netlify.app/"><img src={lms} alt="Workplace -1" width="100%" /></a>
+                            <a href="https://leafy-tapioca-ff9411.netlify.app/"><img src={recipe} alt="Workplace -1" width="100%" /></a>
                             <figcaption>Recipe Website</figcaption>
                         </div>
                     </figure>
